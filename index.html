@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yatzy Scorecard Support</title>
+  <meta name="description" content="Support for Yatzy Scorecard for iPhone and iPad.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f7f5;
+      --card: #ffffff;
+      --text: #1c1c1e;
+      --muted: #6e6e73;
+      --accent: #245c47;
+      --border: rgba(0,0,0,.08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111312;
+        --card: #1b1e1c;
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --accent: #79c9a6;
+        --border: rgba(255,255,255,.10);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 20px 72px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 30px;
+      box-shadow: 0 10px 32px rgba(0,0,0,.04);
+    }
+    h1 { font-size: 34px; line-height: 1.15; margin: 0 0 10px; }
+    h2 { font-size: 21px; margin-top: 30px; }
+    p { font-size: 16px; }
+    .subtle { color: var(--muted); }
+    a { color: var(--accent); }
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 11px 16px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer { margin-top: 24px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Yatzy Scorecard Support</h1>
+    <p class="subtle">Support for Yatzy Scorecard on iPhone and iPad.</p>
+
+    <h2>Need help?</h2>
+    <p>
+      If you have a question, encounter a problem, or have a suggestion for
+      Yatzy Scorecard, please get in touch.
+    </p>
+
+    <p>
+      <a class="button" href="mailto:lauge3050@outlook.com?subject=Yatzy%20Scorecard%20Support">
+        Contact Support
+      </a>
+    </p>
+
+    <h2>About the app</h2>
+    <p>
+      Yatzy Scorecard is a digital scorecard for 5-dice and 6-dice Yatzy.
+      It includes automatic score calculations, multiple players, game history,
+      virtual dice, and optional synchronization across your Apple devices using iCloud.
+    </p>
+
+    <h2>iCloud sync</h2>
+    <p>
+      If iCloud sync is not working, make sure you are signed in to iCloud on
+      your device and that iCloud is enabled. Synchronization may take a short
+      time after changes are made on another device.
+    </p>
+
+    <h2>Privacy</h2>
+    <p>Read the <a href="privacy.html">Yatzy Scorecard Privacy Policy</a>.</p>
+  </div>
+
+  <footer>© 2026 Niels Thomassen. All rights reserved.</footer>
+</main>
+</body>
+</html>
